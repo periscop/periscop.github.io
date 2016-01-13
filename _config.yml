@@ -1,0 +1,17 @@
+# Site settings
+title: Periscop Projects
+email: cloog-development@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+  Periscop project comprises a set of tools for bulinding a polyhedral compiler.
+  Polyhedal model is the state-of-the-art abstraction for low-level optimization
+  of loop-based programs.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://periscop.github.io" # the base hostname & protocol for your site
+github_username:  periscop
+highlighter: pygments
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
