@@ -66,9 +66,17 @@ Main functionality of Chlore is available as a library, `libchlore`, that is aut
 void chlore_whiteboxing(osl_scop_p original, osl_scop_p transformed);
 ```
 
-`osl_scop_*` types are available from the OpenScop library.
+which will add the recovered sequence as an osl extension `osl_clay_p` to the extension field of the original SCoP. `osl_scop_*` and `osl_clay_*` types are available from the OpenScop library and are described in its documentation.
 
 You may need to link your project with `-lchlore -lcloog-isl -lisl -losl -gmp`.
+
+## Citing
+
+Chlore tool and algorithm were presented as a research [paper](https://hal.inria.fr/view/index/identifiant/hal-01253322/lang/en) at the CGO conference in 2016.
+
+You may cite this paper as follows:
+
+Lénaïc Bagnères, Oleksandr Zinenko, Stéphane Huot, Cédric Bastoul. Opening Polyhedral Compiler's Black Box. _CGO 2016 - 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization_, Mar 2016, Barcelona, Spain.
 
 ## Contacts
 
