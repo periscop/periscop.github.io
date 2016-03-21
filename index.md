@@ -8,11 +8,11 @@ Polyhedral model uses an algebraic representation of imperative program statemen
 
 The suite currently contains the following projects:
 
-[OpenScop](https://github.com/periscop/openscop): representation format for polyhedra and an exchange library;
-[PipLib](https://github.com/periscop/piplib): parametric integer programming solver library, the mathematical core behind the polyhedral optimization;
-[CLooG](http://www.cloog.org): code generator from the polyhedral representation;
-[Clan](https://github.com/periscop/clan): polyhedral representation extractor from the C code;
-[Candl](https://github.com/periscop/candl): data dependence analyzer in the polyhedral model;
-[Clay](/clay/): source-level semi-automatic program transformation engine;
-[Chlore](/chlore/): tool for reverse engineering the effects of polyhedral optimization on the source level.
+* [OpenScop](https://github.com/periscop/openscop): representation format for polyhedra and an exchange library;
+* [PipLib](https://github.com/periscop/piplib): parametric integer programming solver library, the mathematical core behind the polyhedral optimization;
+* [CLooG](http://www.cloog.org): code generator from the polyhedral representation;
+* [Clan](https://github.com/periscop/clan): polyhedral representation extractor from the C code;
+* [Candl](https://github.com/periscop/candl): data dependence analyzer in the polyhedral model;
+* [Clay](/clay/): source-level semi-automatic program transformation engine;
+* [Chlore](/chlore/): tool for reverse engineering the effects of polyhedral optimization on the source level.
 
