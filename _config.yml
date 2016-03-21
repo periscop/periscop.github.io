@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://periscop.github.io" # the base hostname & protocol for your site
 github_username:  periscop
-highlighter: pygments
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
